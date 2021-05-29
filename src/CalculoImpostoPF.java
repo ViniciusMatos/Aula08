@@ -2,20 +2,7 @@
 public class CalculoImpostoPF {
 
 	public static void main(String[] args) {
-		System.out.println("******************************************************************");
-		System.out.println("******************************************************************");
-		System.out.println("**");
-		System.out.println("**     	DADOS DO EMPREGADO");
-		System.out.println("**");
-		System.out.println("**");
-		System.out.println("**	         NOME: Antonio Coutinho");
-		System.out.println("**	        IDADE: 30 anos");
-		System.out.println("**	TEMPO EMPRESA: 4 anos");
-		System.out.println("**	SALÁRIO BRUTO: 8.000,00 BRL");
-		System.out.println("**");
-		System.out.println("**");
-		System.out.println("******************************************************************");
-		System.out.println("******************************************************************");
+		imprimirTelaInicial();
 
 		
 		System.out.println("");
@@ -33,6 +20,11 @@ public class CalculoImpostoPF {
 		System.out.println("");
 		
 		
+		imprimirResultado();
+		
+	}
+
+	private static void imprimirResultado() {
 		System.out.println("******************************************************************");
 		System.out.println("******************************************************************");
 		System.out.println("**");
@@ -63,7 +55,23 @@ public class CalculoImpostoPF {
 		System.out.println("**");
 		System.out.println("******************************************************************");
 		System.out.println("******************************************************************");
-		
+	}
+
+	private static void imprimirTelaInicial() {
+		System.out.println("******************************************************************");
+		System.out.println("******************************************************************");
+		System.out.println("**");
+		System.out.println("**     	DADOS DO EMPREGADO");
+		System.out.println("**");
+		System.out.println("**");
+		System.out.println("**	         NOME: Antonio Coutinho");
+		System.out.println("**	        IDADE: 30 anos");
+		System.out.println("**	TEMPO EMPRESA: 4 anos");
+		System.out.println("**	SALÁRIO BRUTO: 8.000,00 BRL");
+		System.out.println("**");
+		System.out.println("**");
+		System.out.println("******************************************************************");
+		System.out.println("******************************************************************");
 	}
 
 }
